@@ -1,0 +1,31 @@
+body {
+  margin: 0;
+}
+
+.milky-way {
+  display: flex;
+  box-sizing: border-box;
+  justify-content: center;
+  height: 100vh;
+  width: 100vw;
+  padding: 30px 0;
+  background-image: linear-gradient(to right bottom, #7c1c52, #711c5a, #631f62, #522268, #3d266d, #362971, #2d2d75, #223079, #31347f, #3d3885, #493d8a, #554190);
+}
+
+.contour {
+  fill: #424242;
+  fill-opacity: 0.2;
+}
+
+.star-crown {
+  fill: #E09017;
+}
+
+.star-body {
+  fill: #FFFC9F
+}
+
+.star-shadow {
+  fill: #000;
+  fill-opacity: 0.3;
+}
