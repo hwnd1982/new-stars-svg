@@ -47,7 +47,10 @@ document.addEventListener('click', ({target}) => {
     cosmos.innerHTML += id ?
       `<use class="star" x="${x}" y="${y}" width="${size}" height="${size}" xlink:href="#${id}" />` : '';
     starsCount++;
-  } else cosmos.innerHTML = '';
+  } else {
+    cosmos.innerHTML = '';
+    starsCount = 0;
+  }
 
   console.log(starsCount, path.length);
   if (starsCount + 1 === path.length) {
