@@ -17,6 +17,10 @@ body {
   fill-opacity: 0.2;
 }
 
+.hole {
+  cursor: pointer;
+}
+
 .star-crown {
   fill: #E09017;
 }
